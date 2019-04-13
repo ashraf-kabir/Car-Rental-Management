@@ -246,11 +246,11 @@ if (strlen($_SESSION['alogin']) == 0) {
                     multiTooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
                 });
 
-                // Pie Chart from doughutData
+                // Pie Chart from doughnut Data
                 var doctx = document.getElementById("chart-area3").getContext("2d");
                 window.myDoughnut = new Chart(doctx).Pie(doughnutData, {responsive: true});
 
-                // Dougnut Chart from doughnutData
+                // Doughnut Chart from doughnut Data
                 var doctx = document.getElementById("chart-area4").getContext("2d");
                 window.myDoughnut = new Chart(doctx).Doughnut(doughnutData, {responsive: true});
 
