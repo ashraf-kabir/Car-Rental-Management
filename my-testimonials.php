@@ -86,8 +86,7 @@ if (strlen($_SESSION['login']) == 0) {
         $query->execute();
         $results = $query->fetchAll(PDO::FETCH_OBJ);
         $cnt = 1;
-        if ($query->rowCount() > 0)
-        {
+        if ($query->rowCount() > 0) {
         foreach ($results
 
                  as $result)
@@ -95,15 +94,18 @@ if (strlen($_SESSION['login']) == 0) {
         <section class="user_profile inner_pages">
             <div class="container">
                 <div class="user_profile_info gray-bg padding_4x4_40">
-                    <div class="upload_user_logo"><img src="assets/images/dealer-logo.jpg" alt="image">
+                    <div class="upload_user_logo">
+                        <img src="assets/images/dealer-logo.jpg" alt="image">
                     </div>
-
                     <div class="dealer_info">
                         <h5><?php echo htmlentities($result->FullName); ?></h5>
-                        <p><?php echo htmlentities($result->Address); ?><br>
-                            <?php echo htmlentities($result->City); ?>&nbsp;<?php echo htmlentities($result->Country);
+                        <p>
+                            <?php echo htmlentities($result->Address); ?><br>
+                            <?php echo htmlentities($result->City); ?>&nbsp;
+                            <?php echo htmlentities($result->Country);
                             }
-                            } ?></p>
+                            } ?>
+                        </p>
                     </div>
                 </div>
 
@@ -111,7 +113,6 @@ if (strlen($_SESSION['login']) == 0) {
                     <div class="col-md-3 col-sm-3">
                         <?php include('includes/sidebar.php'); ?>
                         <div class="col-md-8 col-sm-8">
-
 
                             <div class="profile_wrap">
                                 <h5 class="uppercase underline">My Testimonials </h5>

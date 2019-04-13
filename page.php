@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
-include('includes/config.php');
+include 'includes/config.php';
 ?>
 
 <!DOCTYPE HTML>
@@ -50,11 +50,11 @@ include('includes/config.php');
 </head>
 <body>
     <<!-- Start Switcher -->
-    <?php include('includes/colorswitcher.php'); ?>
+    <?php include 'includes/colorswitcher.php'; ?>
     <!-- /Switcher -->
 
     <!--Header-->
-    <?php include('includes/header.php'); ?>
+    <?php include 'includes/header.php'; ?>
     <?php
     $pagetype = $_GET['type'];
     $sql = "SELECT type,detail,PageName from tblpages where type=:pagetype";
@@ -63,12 +63,10 @@ include('includes/config.php');
     $query->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
     $cnt = 1;
-    if ($query->rowCount() > 0)
-    {
+    if ($query->rowCount() > 0) {
     foreach ($results
 
-             as $result)
-    { ?>
+             as $result) { ?>
     <section class="page-header aboutus_page">
         <div class="container">
             <div class="page-header_wrap">
@@ -96,9 +94,8 @@ include('includes/config.php');
     </section>
     <!-- /About-us-->
 
-
     <<!--Footer -->
-    <?php include('includes/footer.php'); ?>
+    <?php include 'includes/footer.php'; ?>
     <!-- /Footer-->
 
     <!--Back to top-->
@@ -106,16 +103,16 @@ include('includes/config.php');
     <!--/Back to top-->
 
     <!--Login-Form -->
-    <?php include('includes/login.php'); ?>
+    <?php include 'includes/login.php'; ?>
     <!--/Login-Form -->
 
     <!--Register-Form -->
-    <?php include('includes/registration.php'); ?>
+    <?php include 'includes/registration.php'; ?>
 
     <!--/Register-Form -->
 
     <!--Forgot-password-Form -->
-    <?php include('includes/forgotpassword.php'); ?>
+    <?php include 'includes/forgotpassword.php'; ?>
     <!--/Forgot-password-Form -->
 
     <!-- Scripts -->
@@ -131,6 +128,4 @@ include('includes/config.php');
     <script src="assets/js/owl.carousel.min.js"></script>
 
 </body>
-
-<!-- Mirrored from themes.webmasterdriver.net/carforyou/demo/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Jun 2017 07:26:12 GMT -->
 </html>
