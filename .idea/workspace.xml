@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9bf8d7f-c22f-4501-a044-cdfe2aba0e72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/manage-pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage-pages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/manage-subscribers.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage-subscribers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/manage-vehicles.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage-vehicles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/post-avehical.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/post-avehical.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/reg-users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/reg-users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/testimonials.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/testimonials.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/update-contactinfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/update-contactinfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/colorswitcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/colorswitcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/changeimage1.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/changeimage1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/changeimage2.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/changeimage2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/changeimage3.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/changeimage3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/changeimage4.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/changeimage4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/changeimage5.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/changeimage5.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/forgotpassword.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,12 +42,21 @@
         <option value="$PROJECT_DIR$/includes/colorswitcher.php" />
         <option value="$PROJECT_DIR$/includes/config.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
+        <option value="$PROJECT_DIR$/includes/forgotpassword.php" />
+        <option value="$PROJECT_DIR$/includes/login.php" />
+        <option value="$PROJECT_DIR$/includes/registration.php" />
+        <option value="$PROJECT_DIR$/includes/sidebar.php" />
+        <option value="$PROJECT_DIR$/admin/changeimage4.php" />
+        <option value="$PROJECT_DIR$/admin/changeimage5.php" />
+        <option value="$PROJECT_DIR$/admin/changeimage3.php" />
+        <option value="$PROJECT_DIR$/admin/changeimage2.php" />
+        <option value="$PROJECT_DIR$/admin/changeimage1.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="348" />
-    <option name="y" value="130" />
+    <option name="x" value="526" />
+    <option name="y" value="112" />
     <option name="width" value="1235" />
     <option name="height" value="742" />
   </component>
@@ -79,11 +77,6 @@
               <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
               <item name="carrental" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carrental" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,19 +115,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555125881299</updated>
-      <workItem from="1555125885345" duration="669000" />
+      <workItem from="1555125885345" duration="1061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="669000" />
+    <option name="totallyTimeSpent" value="1061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -295,7 +287,74 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/forgotpassword.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="118" column="9" lean-forward="true" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="103" column="6" lean-forward="true" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/changeimage4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/changeimage5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/changeimage3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/changeimage1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/changeimage2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
