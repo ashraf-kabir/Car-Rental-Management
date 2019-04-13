@@ -30,7 +30,7 @@ include 'includes/config.php';
     <!-- SWITCHER -->
     <link rel="stylesheet" id="switcher-css" type="text/css" href="assets/switcher/css/switcher.css" media="all"/>
     <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/red.css" title="red" media="all"
-          data-default-color="true"/>
+    data-default-color="true"/>
     <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/orange.css" title="orange" media="all"/>
     <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/blue.css" title="blue" media="all"/>
     <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/pink.css" title="pink" media="all"/>
@@ -39,11 +39,11 @@ include 'includes/config.php';
 
     <!-- Fav and touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
-          href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
+    href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.html">
+    href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.html">
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
-          href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
+    href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -64,34 +64,31 @@ include 'includes/config.php';
     $results = $query->fetchAll(PDO::FETCH_OBJ);
     $cnt = 1;
     if ($query->rowCount() > 0) {
-    foreach ($results
-
-             as $result) { ?>
-    <section class="page-header aboutus_page">
-        <div class="container">
-            <div class="page-header_wrap">
-                <div class="page-heading">
-                    <h1><?php echo htmlentities($result->PageName); ?></h1>
+        foreach ($results as $result) { ?>
+        <section class="page-header aboutus_page">
+            <div class="container">
+                <div class="page-header_wrap">
+                    <div class="page-heading">
+                        <h1><?php echo htmlentities($result->PageName); ?></h1>
+                    </div>
+                    <ul class="coustom-breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><?php echo htmlentities($result->PageName); ?></li>
+                    </ul>
                 </div>
-                <ul class="coustom-breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li><?php echo htmlentities($result->PageName); ?></li>
-                </ul>
             </div>
-        </div>
-        <!-- Dark Overlay-->
-        <div class="dark-overlay"></div>
-    </section>
-    <section class="about_us section-padding">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2><?php echo htmlentities($result->PageName); ?></h2>
-                <p><?php echo $result->detail; ?> </p>
+            <!-- Dark Overlay-->
+            <div class="dark-overlay"></div>
+        </section>
+
+        <section class="about_us section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2><?php echo htmlentities($result->PageName); ?></h2>
+                    <p><?php echo $result->detail; ?> </p>
+                </div> <?php } } ?>
             </div>
-            <?php }
-            } ?>
-        </div>
-    </section>
+        </section>
     <!-- /About-us-->
 
     <<!--Footer -->
