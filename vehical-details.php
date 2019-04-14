@@ -24,11 +24,9 @@ if (isset($_POST['submit'])) {
     } else {
         echo "<script>alert('Something went wrong. Please try again');</script>";
     }
-
 }
 
 ?>
-
 
 <!DOCTYPE HTML>
 <html lang="en">
@@ -92,12 +90,10 @@ if (isset($_POST['submit'])) {
     $query->execute();
     $results = $query->fetchAll(PDO::FETCH_OBJ);
     $cnt = 1;
-    if ($query->rowCount() > 0)
-    {
+    if ($query->rowCount() > 0) {
     foreach ($results
 
-             as $result)
-    {
+             as $result) {
     $_SESSION['brndid'] = $result->bid;
     ?>
 
