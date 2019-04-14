@@ -287,7 +287,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                                 </div>
                             </div>
 
-
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="panel panel-default">
@@ -364,8 +363,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <?php if ($result->PowerSteering == 1)
-                                                    {
+                                                    <?php if ($result->PowerSteering == 1) {
                                                     ?>
                                                     <div class="col-sm-3">
                                                         <div class="checkbox checkbox-inline">
@@ -383,8 +381,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                             <?php } ?>
                                                         </div>
                                                         <div class="col-sm-3">
-                                                            <?php if ($result->DriverAirbag == 1)
-                                                            {
+                                                            <?php if ($result->DriverAirbag == 1) {
                                                                 ?>
                                                                 <div class="checkbox checkbox-inline">
                                                                     <input type="checkbox" id="inlineCheckbox1"
@@ -434,7 +431,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                                     </div>
                                                                 <?php } ?>
                                                             </div>
-
 
                                                             <div class="form-group">
                                                                 <div class="col-sm-3">
@@ -516,10 +512,8 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                             <?php }
                                                             } ?>
 
-
                                                             <div class="form-group">
                                                                 <div class="col-sm-8 col-sm-offset-2">
-
                                                                     <button class="btn btn-primary" name="submit"
                                                                             type="submit" style="margin-top:4%">Save
                                                                                                                 changes

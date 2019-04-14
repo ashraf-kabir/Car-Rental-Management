@@ -7,7 +7,7 @@ if (isset($_POST['send'])) {
     $email = $_POST['email'];
     $contactno = $_POST['contactno'];
     $message = $_POST['message'];
-    $sql = "INSERT INTO  tblcontactusquery(name,EmailId,ContactNumber,Message) VALUES(:name,:email,:contactno,:message)";
+    $sql = "INSERT INTO tblcontactusquery(name,EmailId,ContactNumber,Message) VALUES(:name,:email,:contactno,:message)";
     $query = $dbh->prepare($sql);
     $query->bindParam(':name', $name, PDO::PARAM_STR);
     $query->bindParam(':email', $email, PDO::PARAM_STR);
@@ -86,7 +86,6 @@ if (isset($_POST['send'])) {
     </style>
 </head>
 <body>
-
     <<!-- Start Switcher -->
     <?php include('includes/colorswitcher.php'); ?>
     <!-- /Switcher -->
@@ -227,6 +226,4 @@ if (isset($_POST['send'])) {
     <script src="assets/js/owl.carousel.min.js"></script>
 
 </body>
-
-<!-- Mirrored from themes.webmasterdriver.net/carforyou/demo/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Jun 2017 07:26:55 GMT -->
 </html>
