@@ -156,9 +156,9 @@ if (isset($_POST['submit'])) {
                         <div class="listing_detail_wrap">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs gray-bg" role="tablist">
-                                <li role="presentation" class="active"><a href="#vehicle-overview "
+                                <li role="presentation" class="active"><a href="#"
                                                                           aria-controls="vehicle-overview" role="tab"
-                                                                          data-toggle="tab">Vehicle Overview </a></li>
+                                                                          data-toggle="tab">Vehicle Overview</a></li>
 
                                 <li role="presentation"><a href="#accessories" aria-controls="accessories" role="tab"
                                                            data-toggle="tab">Accessories</a></li>
@@ -168,7 +168,6 @@ if (isset($_POST['submit'])) {
                             <div class="tab-content">
                                 <!-- vehicle-overview -->
                                 <div role="tabpanel" class="tab-pane active" id="vehicle-overview">
-
                                     <p><?php echo htmlentities($result->VehiclesOverview); ?></p>
                                 </div>
 
@@ -421,7 +420,7 @@ if (isset($_POST['submit'])) {
     <!-- /Footer-->
 
     <!--Back to top-->
-    <div id="back-top" class="back-top"><a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a></div>
+    <div id="back-top" class="back-top"><a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i> </a></div>
     <!--/Back to top-->
 
     <!--Login-Form -->
