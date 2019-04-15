@@ -32,7 +32,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- Sandstone Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Bootstrap Datatables -->
+        <!-- Bootstrap Data tables -->
         <link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
         <!-- Bootstrap social button library -->
         <link rel="stylesheet" href="css/bootstrap-social.css">

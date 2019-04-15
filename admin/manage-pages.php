@@ -15,7 +15,6 @@ if (strlen($_SESSION['alogin']) == 0) {
         $query->execute();
         $msg = "Page data has updated successfully";
     }
-
     ?>
 
     <!doctype html>
