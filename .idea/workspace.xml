@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0d7108-c201-41a8-8103-9349748a5326" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/manage-pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage-pages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/post-avehical.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/postvehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/reg-users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/reg-users.php" afterDir="false" />
-    </list>
+    <list default="true" id="1d0d7108-c201-41a8-8103-9349748a5326" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +33,13 @@
         <option value="$PROJECT_DIR$/admin/manage-pages.php" />
         <option value="$PROJECT_DIR$/admin/reg-users.php" />
         <option value="$PROJECT_DIR$/admin/postvehicle.php" />
+        <option value="$PROJECT_DIR$/admin/change-password.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="347" />
-    <option name="y" value="174" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="417" />
+    <option name="y" value="155" />
     <option name="width" value="1235" />
     <option name="height" value="742" />
   </component>
@@ -103,16 +99,17 @@
       <updated>1555232116393</updated>
       <workItem from="1555232124852" duration="1109000" />
       <workItem from="1555338364353" duration="1078000" />
+      <workItem from="1555428458938" duration="149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2187000" />
+    <option name="totallyTimeSpent" value="2336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="347" y="174" width="1235" height="742" extended-state="0" />
+    <frame x="417" y="155" width="1235" height="742" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19404255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19744681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -221,13 +218,6 @@
     <entry file="file://$PROJECT_DIR$/admin/changeimage4.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/change-password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="186" column="10" lean-forward="true" selection-start-line="186" selection-start-column="10" selection-end-line="186" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/changeimage1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -323,6 +313,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1029">
           <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/change-password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
         </state>
       </provider>
     </entry>
