@@ -47,7 +47,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- Sandstone Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Bootstrap Datatables -->
+        <!-- Bootstrap Data tables -->
         <link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
         <!-- Bootstrap social button library -->
         <link rel="stylesheet" href="css/bootstrap-social.css">
@@ -57,7 +57,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         <link rel="stylesheet" href="css/fileinput.min.css">
         <!-- Awesome Bootstrap checkbox -->
         <link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
-        <!-- Admin Stye -->
+        <!-- Admin Style -->
         <link rel="stylesheet" href="css/style.css">
         <script type="text/javascript">
             function valid() {
@@ -143,10 +143,8 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                 </div>
                                                 <div class="hr-dashed"></div>
 
-
                                                 <div class="form-group">
                                                     <div class="col-sm-8 col-sm-offset-4">
-
                                                         <button class="btn btn-primary" name="submit" type="submit">Save
                                                                                                                     changes
                                                         </button>
