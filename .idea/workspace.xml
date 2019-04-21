@@ -29,16 +29,16 @@
         <option value="$PROJECT_DIR$/admin/create-brand.php" />
         <option value="$PROJECT_DIR$/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/admin/edit-brand.php" />
-        <option value="$PROJECT_DIR$/admin/edit-vehicle.php" />
         <option value="$PROJECT_DIR$/admin/manage-pages.php" />
         <option value="$PROJECT_DIR$/admin/reg-users.php" />
         <option value="$PROJECT_DIR$/admin/postvehicle.php" />
         <option value="$PROJECT_DIR$/admin/change-password.php" />
         <option value="$PROJECT_DIR$/admin/manage-conactusquery.php" />
+        <option value="$PROJECT_DIR$/admin/edit-vehicle.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="252" />
     <option name="y" value="130" />
     <option name="width" value="1235" />
@@ -105,16 +105,17 @@
       <workItem from="1555717121864" duration="72000" />
       <workItem from="1555717353869" duration="599000" />
       <workItem from="1555758008557" duration="23000" />
+      <workItem from="1555867477908" duration="768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3298000" />
+    <option name="totallyTimeSpent" value="4066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="252" y="130" width="1235" height="742" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21106383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21446809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,13 +252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/edit-vehicle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9223">
-          <caret line="549" column="10" selection-start-line="549" selection-start-column="10" selection-end-line="549" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-61" />
@@ -329,6 +323,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/edit-vehicle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="293" column="64" selection-start-line="293" selection-start-column="64" selection-end-line="293" selection-end-column="64" />
         </state>
       </provider>
     </entry>
