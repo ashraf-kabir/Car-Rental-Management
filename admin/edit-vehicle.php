@@ -293,7 +293,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                                         <div class="panel-heading">Accessories</div>
                                         <div class="panel-body">
 
-
                                             <div class="form-group">
                                                 <div class="col-sm-3">
                                                     <?php if ($result->AirConditioner == 1) {
