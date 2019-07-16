@@ -13,8 +13,8 @@
                             <a href="mailto:info@example.com">info@example.com</a></div>
                         <div class="header_widgets">
                             <div class="circle_icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                            <p class="uppercase_text">Service Helpline Call Us: </p>
-                            <a href="tel:61-1234-5678-09">+91-1234-5678-9</a></div>
+                            <p class="uppercase_text">Service Helpline Call Us:</p>
+                            <a href="tel:61-1234-5678-09">+880 1751336666</a></div>
                         <div class="social-follow">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
@@ -29,7 +29,7 @@
                             <div class="login_btn"><a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal"
                                                       data-dismiss="modal">Login / Register</a></div>
                         <?php } else {
-                            echo "Welcome To Car rental portal";
+                            echo "Welcome To Car rental service";
                         } ?>
                     </div>
                 </div>
