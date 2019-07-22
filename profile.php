@@ -93,10 +93,6 @@ if (strlen($_SESSION['login']) == 0) {
     </head>
     <body>
 
-        <!-- Start Switcher -->
-        <?php include('includes/colorswitcher.php'); ?>
-        <!-- /Switcher -->
-
         <!--Header-->
         <?php include('includes/header.php'); ?>
         <!-- /Header -->
