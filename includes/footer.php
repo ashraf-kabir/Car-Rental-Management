@@ -75,7 +75,7 @@ if (isset($_POST['emailsubscibe'])) {
                     </div>
                 </div>
                 <div class="col-md-6 col-md-pull-6">
-                    <p class="copy-right">Copyright &copy; 2017 Car Rental Portal. All Rights Reserved</p>
+                    <p class="copy-right">Copyright &copy; 2019 Car Rental Portal. All Rights Reserved</p>
                 </div>
             </div>
         </div>
