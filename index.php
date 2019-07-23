@@ -223,7 +223,6 @@ error_reporting(0);
     </section>
     <!-- /Testimonial-->
 
-
     <!--Footer -->
     <?php include('includes/footer.php'); ?>
     <!-- /Footer-->
