@@ -5,12 +5,12 @@ include('includes/config.php');
 if (strlen($_SESSION['alogin']) == 0) {
     header('location:index.php');
 } else {
-// Code for change password	
+    // for changing password	
     if (isset($_POST['submit'])) {
         $address = $_POST['address'];
         $email = $_POST['email'];
         $contactno = $_POST['contactno'];
-        $sql = "update tblcontactusinfo set Address=:address,EmailId=:email,ContactNo=:contactno";
+        $sql = "UPDATE tblcontactusinfo SET Address=:address,EmailId=:email,ContactNo=:contactno";
         $query = $dbh->prepare($sql);
         $query->bindParam(':address', $address, PDO::PARAM_STR);
         $query->bindParam(':email', $email, PDO::PARAM_STR);
@@ -31,7 +31,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         <meta name="author" content="">
         <meta name="theme-color" content="#3e454c">
 
-        <title>Car Rental Portal | Admin Create Brand</title>
+        <title>Create Brand</title>
 
         <!-- Font awesome -->
         <link rel="stylesheet" href="css/font-awesome.min.css">

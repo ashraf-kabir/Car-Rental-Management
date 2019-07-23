@@ -101,7 +101,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                                             <th>City</th>
                                             <th>Country</th>
                                             <th>Reg Date</th>
-
                                         </tr>
                                         </thead>
                                         <tfoot>
@@ -120,7 +119,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                         </tfoot>
                                         <tbody>
 
-                                        <?php $sql = "SELECT * from  tblusers ";
+                                        <?php $sql = "SELECT * from `tblusers`";
                                         $query = $dbh->prepare($sql);
                                         $query->execute();
                                         $results = $query->fetchAll(PDO::FETCH_OBJ);

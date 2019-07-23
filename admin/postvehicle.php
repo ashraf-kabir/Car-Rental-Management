@@ -82,7 +82,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         <meta name="author" content="">
         <meta name="theme-color" content="#3e454c">
 
-        <title>Car Rental Portal | Admin Post Vehicle</title>
+        <title>Post Vehicle</title>
 
         <!-- Font awesome -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -196,8 +196,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                                 style="color:red">*</span></label>
                                                     <div class="col-sm-4">
                                                         <select class="selectpicker" name="fueltype" required>
-                                                            <option value=""> Select</option>
-
+                                                            <option value="">--Select--</option>
                                                             <option value="Petrol">Petrol</option>
                                                             <option value="Diesel">Diesel</option>
                                                             <option value="CNG">CNG</option>

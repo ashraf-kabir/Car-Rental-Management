@@ -26,7 +26,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         <meta name="author" content="">
         <meta name="theme-color" content="#3e454c">
 
-        <title>Car Rental Portal |Admin Manage Subscribers </title>
+        <title>Manage Subscribers </title>
 
         <!-- Font awesome -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -122,8 +122,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                     <td><?php echo htmlentities($result->PostingDate); ?></td>
 
                                                     <td>
-
-
                                                         <a href="manage-subscribers.php?del=<?php echo $result->id; ?>"
                                                            onclick="return confirm('Do you want to delete');"><i
                                                                     class="fa fa-close"></i></a>
