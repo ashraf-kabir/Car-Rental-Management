@@ -176,7 +176,6 @@ if (strlen($_SESSION['login']) == 0) {
                                         <input class="form-control white_bg" id="password" name="password"
                                                type="password" required>
                                     </div>
-                                    <div cl
                                     <div class="form-group">
                                         <label class="control-label">Password</label>
                                         <input class="form-control white_bg" id="newpassword" type="password"
@@ -225,8 +224,7 @@ if (strlen($_SESSION['login']) == 0) {
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/interface.js"></script>
-        <!--Switcher-->
-        <script src="assets/switcher/js/switcher.js"></script>
+
         <!--bootstrap-slider-JS-->
         <script src="assets/js/bootstrap-slider.min.js"></script>
         <!--Slider-JS-->
