@@ -69,7 +69,6 @@ if (strlen($_SESSION['alogin']) == 0) {
             }
         </style>
 
-
     </head>
 
     <body>

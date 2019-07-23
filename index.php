@@ -21,14 +21,7 @@ error_reporting(0);
     <link href="assets/css/slick.css" rel="stylesheet">
     <link href="assets/css/bootstrap-slider.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" id="switcher-css" type="text/css" href="assets/switcher/css/switcher.css" media="all"/>
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/red.css" title="red" media="all"
-          data-default-color="true"/>
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/orange.css" title="orange" media="all"/>
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/blue.css" title="blue" media="all"/>
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/pink.css" title="pink" media="all"/>
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/green.css" title="green" media="all"/>
-    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/purple.css" title="purple" media="all"/>
+
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
           href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
@@ -146,7 +139,7 @@ error_reporting(0);
                 <div class="col-lg-3 col-xs-6 col-sm-3">
                     <div class="fun-facts-m">
                         <div class="cell">
-                            <h2><i class="fa fa-calendar" aria-hidden="true"></i>40+</h2>
+                            <h2><i class="fa fa-calendar" aria-hidden="true"></i>2+</h2>
                             <p>Years In Business</p>
                         </div>
                     </div>
@@ -170,7 +163,7 @@ error_reporting(0);
                 <div class="col-lg-3 col-xs-6 col-sm-3">
                     <div class="fun-facts-m">
                         <div class="cell">
-                            <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i>600+</h2>
+                            <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i>500+</h2>
                             <p>Satisfied Customers</p>
                         </div>
                     </div>
