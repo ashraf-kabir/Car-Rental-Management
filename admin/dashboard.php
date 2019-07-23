@@ -189,27 +189,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                             class="fa fa-arrow-right"></i></a>
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
-                                            <div class="panel panel-default">
-                                                <div class="panel-body bk-info text-light">
-                                                    <div class="stat-panel text-center">
-                                                        <?php
-                                                        $sql5 = "SELECT id from tbltestimonial ";
-                                                        $query5 = $dbh->prepare($sql5);
-                                                        $query5->execute();
-                                                        $results5 = $query5->fetchAll(PDO::FETCH_OBJ);
-                                                        $testimonials = $query5->rowCount();
-                                                        ?>
-
-                                                        <div class="stat-panel-number h1 "><?php echo htmlentities($testimonials); ?></div>
-                                                        <div class="stat-panel-title text-uppercase">Testimonials</div>
-                                                    </div>
-                                                </div>
-                                                <a href="testimonials.php"
-                                                   class="block-anchor panel-footer text-center">Full Detail &nbsp; <i
-                                                            class="fa fa-arrow-right"></i></a>
-                                            </div>
-                                        </div>
 
                                     </div>
                                 </div>
