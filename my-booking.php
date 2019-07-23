@@ -163,6 +163,8 @@ if (strlen($_SESSION['login']) == 0) {
                                             <?php }
                                         } ?>
 
+                                        <a href="payment.php" class="btn btn-primary">Make Payment</a>
+
 
                                     </ul>
                                 </div>

@@ -148,7 +148,7 @@ error_reporting(0);
                     <div class="fun-facts-m">
                         <div class="cell">
                             <h2><i class="fa fa-car" aria-hidden="true"></i>1200+</h2>
-                            <p>New Cars For Sale</p>
+                            <p>New Cars For Rent</p>
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ error_reporting(0);
                     <div class="fun-facts-m">
                         <div class="cell">
                             <h2><i class="fa fa-car" aria-hidden="true"></i>1000+</h2>
-                            <p>Used Cars For Sale</p>
+                            <p>Used Cars For Rent</p>
                         </div>
                     </div>
                 </div>

@@ -50,11 +50,11 @@ if (strlen($_SESSION['login']) == 0) {
             <div class="container">
                 <div class="page-header_wrap">
                     <div class="page-heading">
-                        <h1>My Testimonials</h1>
+                        <h1>Payment</h1>
                     </div>
                     <ul class="coustom-breadcrumb">
                         <li><a href="#">Home</a></li>
-                        <li>My Testimonials</li>
+                        <li>Payment</li>
                     </ul>
                 </div>
             </div>
@@ -100,46 +100,20 @@ if (strlen($_SESSION['login']) == 0) {
                         <div class="col-md-8 col-sm-8">
 
                             <div class="profile_wrap">
-                                <h5 class="uppercase underline">My Testimonials</h5>
+                                <h5 class="uppercase underline">Payment</h5>
                                 <div class="my_vehicles_list">
                                     <ul class="vehicle_listing">
-                                        <?php
-                                        $useremail = $_SESSION['login'];
-                                        $sql = "SELECT * from tbltestimonial where UserEmail=:useremail";
-                                        $query = $dbh->prepare($sql);
-                                        $query->bindParam(':useremail', $useremail, PDO::PARAM_STR);
-                                        $query->execute();
-                                        $results = $query->fetchAll(PDO::FETCH_OBJ);
-
-                                        if ($cnt = $query->rowCount() > 0) {
-                                            foreach ($results as $result) { ?>
-                                                <li>
-                                                    <div>
-                                                        <p><?php echo htmlentities($result->Testimonial); ?> </p>
-                                                        <p><b>Posting
-                                                              Date:</b><?php echo htmlentities($result->PostingDate); ?>
-                                                        </p>
-                                                    </div>
-                                                    <?php if ($result->status == 1) { ?>
-                                                        <div class="vehicle_status"><a
-                                                                    class="btn outline btn-xs active-btn">Active</a>
-
-                                                            <div class="clearfix"></div>
-                                                        </div>
-                                                    <?php } else { ?>
-                                                        <div class="vehicle_status"><a href="#"
-                                                                                       class="btn outline btn-xs">Waiting
-                                                                                                                  for
-                                                                                                                  approval</a>
-                                                            <div class="clearfix"></div>
-                                                        </div>
-                                                    <?php } ?>
-                                                </li>
-                                            <?php }
-                                        } ?>
-
+                                        <p><strong>Option01: bkash</strong></p>
+                                        <a href="#"><img src="assets/images/bkash.jpg" alt="bkash" height="180" width="350"></a>
+                                        <br>
+                                        <br>
+                                        <p><strong>Option02: VISA</strong></p>
+                                        <a href="#"><img src="assets/images/visa.png" alt="visa" height="180" width="350"></a>
+                                        <br>
+                                        <br>
+                                        <p><strong>Option03: MasterCard</strong></p>
+                                        <a href="#"><img src="assets/images/mastercard.jpg" alt="mastercard" height="180" width="350"></a>
                                     </ul>
-
                                 </div>
                             </div>
                         </div>
