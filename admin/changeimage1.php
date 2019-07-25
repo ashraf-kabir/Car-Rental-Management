@@ -79,7 +79,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                     <div class="row">
                         <div class="col-md-12">
 
-                            <h2 class="page-title">Vehicle Image 1 </h2>
+                            <h2 class="page-title">Vehicle Image 1</h2>
 
                             <div class="row">
                                 <div class="col-md-10">

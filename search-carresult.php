@@ -49,11 +49,11 @@ error_reporting(0);
         <div class="container">
             <div class="page-header_wrap">
                 <div class="page-heading">
-                    <h1>Car Listing</h1>
+                    <h1>Car Rental Packages</h1>
                 </div>
                 <ul class="coustom-breadcrumb">
                     <li><a href="#">Home</a></li>
-                    <li>Car Listing</li>
+                    <li>Car Rental Packages</li>
                 </ul>
             </div>
         </div>
@@ -81,7 +81,7 @@ error_reporting(0);
                             $results = $query->fetchAll(PDO::FETCH_OBJ);
                             $cnt = $query->rowCount();
                             ?>
-                            <p><span><?php echo htmlentities($cnt); ?> Listings</span></p>
+                            <p><span><?php echo htmlentities($cnt); ?> Packages</span></p>
                         </div>
                     </div>
 
