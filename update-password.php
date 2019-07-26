@@ -200,7 +200,6 @@ if (strlen($_SESSION['login']) == 0) {
 
         <!--Register-Form -->
         <?php include('includes/registration.php'); ?>
-
         <!--/Register-Form -->
 
         <!--Forgot-password-Form -->
