@@ -13,7 +13,7 @@ if (strlen($_SESSION['login']) == 0) {
         $city = $_POST['city'];
         $country = $_POST['country'];
         $email = $_SESSION['login'];
-        $sql = "update tblusers set FullName=:name,ContactNo=:mobileno,dob=:dob,Address=:adress,City=:city,Country=:country where EmailId=:email";
+        $sql = "UPDATE tblusers SET FullName=:name,ContactNo=:mobileno,dob=:dob,Address=:adress,City=:city,Country=:country WHERE EmailId=:email";
         $query = $dbh->prepare($sql);
         $query->bindParam(':name', $name, PDO::PARAM_STR);
         $query->bindParam(':mobileno', $mobileno, PDO::PARAM_STR);
@@ -105,7 +105,7 @@ if (strlen($_SESSION['login']) == 0) {
 
         <?php
         $useremail = $_SESSION['login'];
-        $sql = "SELECT * from tblusers where EmailId=:useremail";
+        $sql = "SELECT * FROM tblusers WHERE EmailId=:useremail";
         $query = $dbh->prepare($sql);
         $query->bindParam(':useremail', $useremail, PDO::PARAM_STR);
         $query->execute();
@@ -213,7 +213,7 @@ if (strlen($_SESSION['login']) == 0) {
         <!-- /Footer-->
 
         <!--Back to top-->
-        <div id="back-top" class="back-top"><a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a></div>
+        <div id="back-top" class="back-top"><a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i> </a></div>
         <!--/Back to top-->
 
         <!--Login-Form -->

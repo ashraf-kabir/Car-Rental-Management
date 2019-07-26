@@ -9,21 +9,21 @@ if (strlen($_SESSION['login']) == 0) {
         $password = md5($_POST['password']);
         $newpassword = md5($_POST['newpassword']);
         $email = $_SESSION['login'];
-        $sql = "SELECT Password FROM tblusers WHERE EmailId=:email and Password=:password";
+        $sql = "SELECT Password FROM tblusers WHERE EmailId=:email AND Password=:password";
         $query = $dbh->prepare($sql);
         $query->bindParam(':email', $email, PDO::PARAM_STR);
         $query->bindParam(':password', $password, PDO::PARAM_STR);
         $query->execute();
         $results = $query->fetchAll(PDO::FETCH_OBJ);
         if ($query->rowCount() > 0) {
-            $con = "update tblusers set Password=:newpassword where EmailId=:email";
+            $con = "UPDATE tblusers SET Password=:newpassword WHERE EmailId=:email";
             $chngpwd1 = $dbh->prepare($con);
             $chngpwd1->bindParam(':email', $email, PDO::PARAM_STR);
             $chngpwd1->bindParam(':newpassword', $newpassword, PDO::PARAM_STR);
             $chngpwd1->execute();
-            $msg = "Your Password succesfully changed";
+            $msg = "Password successfully changed";
         } else {
-            $error = "Your current password is wrong";
+            $error = "Current password is wrong";
         }
     }
 
@@ -39,7 +39,7 @@ if (strlen($_SESSION['login']) == 0) {
         <title>AutoSpire | Update Password</title>
         <!--Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
-        <!--Custome Style -->
+        <!--Custom Style -->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
         <!--OWL Carousel slider-->
         <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
@@ -117,7 +117,7 @@ if (strlen($_SESSION['login']) == 0) {
 
         <?php
         $useremail = $_SESSION['login'];
-        $sql = "SELECT * from tblusers where EmailId=:useremail";
+        $sql = "SELECT * FROM tblusers WHERE EmailId=:useremail";
         $query = $dbh->prepare($sql);
         $query->bindParam(':useremail', $useremail, PDO::PARAM_STR);
         $query->execute();
@@ -191,7 +191,7 @@ if (strlen($_SESSION['login']) == 0) {
         <!-- /Footer-->
 
         <!--Back to top-->
-        <div id="back-top" class="back-top"><a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a></div>
+        <div id="back-top" class="back-top"><a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i> </a></div>
         <!--/Back to top-->
 
         <!--Login-Form -->

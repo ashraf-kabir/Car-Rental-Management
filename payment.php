@@ -65,14 +65,16 @@ if (strlen($_SESSION['login']) == 0) {
 
         <?php
         $useremail = $_SESSION['login'];
-        $sql = "SELECT * from tblusers where EmailId=:useremail";
+        $sql = "SELECT * FROM tblusers WHERE EmailId=:useremail";
         $query = $dbh->prepare($sql);
         $query->bindParam(':useremail', $useremail, PDO::PARAM_STR);
         $query->execute();
         $results = $query->fetchAll(PDO::FETCH_OBJ);
         $cnt = 1;
         if ($query->rowCount() > 0) {
-        foreach ($results as $result) { ?>
+        foreach ($results
+
+                 as $result) { ?>
         <section class="user_profile inner_pages">
             <div class="container">
                 <div class="user_profile_info gray-bg padding_4x4_40">
@@ -101,15 +103,18 @@ if (strlen($_SESSION['login']) == 0) {
                                 <div class="my_vehicles_list">
                                     <ul class="vehicle_listing">
                                         <p><strong>Option01: bkash</strong></p>
-                                        <a href="#"><img src="assets/images/bkash.jpg" alt="bkash" height="180" width="350"></a>
+                                        <a href="#"><img src="assets/images/bkash.jpg" alt="bkash" height="180"
+                                                         width="350"></a>
                                         <br>
                                         <br>
                                         <p><strong>Option02: VISA</strong></p>
-                                        <a href="#"><img src="assets/images/visa.png" alt="visa" height="180" width="350"></a>
+                                        <a href="#"><img src="assets/images/visa.png" alt="visa" height="180"
+                                                         width="350"></a>
                                         <br>
                                         <br>
                                         <p><strong>Option03: MasterCard</strong></p>
-                                        <a href="#"><img src="assets/images/mastercard.jpg" alt="mastercard" height="180" width="350"></a>
+                                        <a href="#"><img src="assets/images/mastercard.jpg" alt="mastercard"
+                                                         height="180" width="350"></a>
                                     </ul>
                                 </div>
                             </div>

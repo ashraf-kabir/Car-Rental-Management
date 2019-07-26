@@ -17,7 +17,7 @@ if (strlen($_SESSION['login']) == 0) {
         <title>AutoSpire | Booking</title>
         <!--Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
-        <!--Custome Style -->
+        <!--Custom Style -->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
         <!--OWL Carousel slider-->
         <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
@@ -42,10 +42,10 @@ if (strlen($_SESSION['login']) == 0) {
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+        <!--[if lt IE 9]-->
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <!--[endif]-->
     </head>
     <body>
 
@@ -74,7 +74,7 @@ if (strlen($_SESSION['login']) == 0) {
 
         <?php
         $useremail = $_SESSION['login'];
-        $sql = "SELECT * from tblusers where EmailId=:useremail";
+        $sql = "SELECT * FROM tblusers WHERE EmailId=:useremail";
         $query = $dbh->prepare($sql);
         $query->bindParam(':useremail', $useremail, PDO::PARAM_STR);
         $query->execute();
@@ -109,7 +109,7 @@ if (strlen($_SESSION['login']) == 0) {
                                     <ul class="vehicle_listing">
                                         <?php
                                         $useremail = $_SESSION['login'];
-                                        $sql = "SELECT tblvehicles.Vimage1 as Vimage1,tblvehicles.VehiclesTitle,tblvehicles.id as vid,tblbrands.BrandName,tblbooking.FromDate,tblbooking.ToDate,tblbooking.message,tblbooking.Status  from tblbooking join tblvehicles on tblbooking.VehicleId=tblvehicles.id join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand where tblbooking.userEmail=:useremail";
+                                        $sql = "SELECT tblvehicles.Vimage1 AS Vimage1,tblvehicles.VehiclesTitle,tblvehicles.id AS vid,tblbrands.BrandName,tblbooking.FromDate,tblbooking.ToDate,tblbooking.message,tblbooking.Status FROM tblbooking JOIN tblvehicles on tblbooking.VehicleId=tblvehicles.id JOIN tblbrands on tblbrands.id=tblvehicles.VehiclesBrand WHERE tblbooking.userEmail=:useremail";
                                         $query = $dbh->prepare($sql);
                                         $query->bindParam(':useremail', $useremail, PDO::PARAM_STR);
                                         $query->execute();
@@ -164,7 +164,6 @@ if (strlen($_SESSION['login']) == 0) {
                                         } ?>
 
                                         <a href="payment.php" class="btn btn-primary">Make Payment</a>
-
 
                                     </ul>
                                 </div>
