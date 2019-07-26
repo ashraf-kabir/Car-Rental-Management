@@ -72,10 +72,7 @@ if (strlen($_SESSION['login']) == 0) {
         $results = $query->fetchAll(PDO::FETCH_OBJ);
         $cnt = 1;
         if ($query->rowCount() > 0) {
-        foreach ($results
-
-                 as $result)
-        { ?>
+        foreach ($results as $result) { ?>
         <section class="user_profile inner_pages">
             <div class="container">
                 <div class="user_profile_info gray-bg padding_4x4_40">
