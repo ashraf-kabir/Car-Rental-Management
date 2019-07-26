@@ -20,7 +20,6 @@
                                 <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
@@ -29,7 +28,7 @@
                             <div class="login_btn"><a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal"
                                                       data-dismiss="modal">Login / Register</a></div>
                         <?php } else {
-                            echo "Welcome To Car rental service";
+                            echo "Welcome To AutoSpire Car Rental Services Ltd.";
                         } ?>
                     </div>
                 </div>
@@ -61,7 +60,6 @@
                                 $results = $query->fetchAll(PDO::FETCH_OBJ);
                                 if ($query->rowCount() > 0) {
                                     foreach ($results as $result) {
-
                                         echo htmlentities($result->FullName);
                                     }
                                 } ?><i class="fa fa-angle-down" aria-hidden="true"></i></a>
