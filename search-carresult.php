@@ -62,7 +62,7 @@ error_reporting(0);
     </section>
     <!-- /Page Header-->
 
-    <!--Listing-->
+    <!--Packages-->
     <section class="listing-page">
         <div class="container">
             <div class="row">
@@ -136,12 +136,12 @@ error_reporting(0);
                             <h5><i class="fa fa-filter" aria-hidden="true"></i>Find Your Car</h5>
                         </div>
                         <div class="sidebar_filter">
-                            <form action="#" method="post">
+                            <form action="search-carresult.php" method="post">
                                 <div class="form-group select">
                                     <select class="form-control" name="brand">
                                         <option>Select Brand</option>
-
-                                        <?php $sql = "SELECT * from  tblbrands";
+                                        <?php 
+                                        $sql = "SELECT * from  tblbrands";
                                         $query = $dbh->prepare($sql);
                                         $query->execute();
                                         $results = $query->fetchAll(PDO::FETCH_OBJ);
@@ -151,7 +151,6 @@ error_reporting(0);
                                                 <option value="<?php echo htmlentities($result->id); ?>"><?php echo htmlentities($result->BrandName); ?></option>
                                             <?php }
                                         } ?>
-
                                     </select>
                                 </div>
                                 <div class="form-group select">
@@ -163,9 +162,7 @@ error_reporting(0);
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-block"><i class="fa fa-search"
-                                                                                   aria-hidden="true"></i> Search Car
-                                    </button>
+                                    <button type="submit" class="btn btn-block"><i class="fa fa-search" aria-hidden="true"></i>Search Car</button>
                                 </div>
                             </form>
                         </div>
