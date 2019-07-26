@@ -86,7 +86,7 @@ error_reporting(0);
                     </div>
 
                     <?php
-                    $sql = "SELECT tblvehicles.*,tblbrands.BrandName,tblbrands.id as bid  from tblvehicles join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand where tblvehicles.VehiclesBrand=:brand and tblvehicles.FuelType=:fueltype";
+                    $sql = "SELECT tblvehicles.*,tblbrands.BrandName,tblbrands.id AS bid FROM tblvehicles JOIN tblbrands ON tblbrands.id=tblvehicles.VehiclesBrand WHERE tblvehicles.VehiclesBrand=:brand AND tblvehicles.FuelType=:fueltype";
                     $query = $dbh->prepare($sql);
                     $query->bindParam(':brand', $brand, PDO::PARAM_STR);
                     $query->bindParam(':fueltype', $fueltype, PDO::PARAM_STR);
