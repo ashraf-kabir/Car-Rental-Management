@@ -30,6 +30,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         $centrallocking = $_POST['centrallocking'];
         $crashcensor = $_POST['crashcensor'];
         $leatherseats = $_POST['leatherseats'];
+
         move_uploaded_file($_FILES["img1"]["tmp_name"], "img/vehicleimages/" . $_FILES["img1"]["name"]);
         move_uploaded_file($_FILES["img2"]["tmp_name"], "img/vehicleimages/" . $_FILES["img2"]["name"]);
         move_uploaded_file($_FILES["img3"]["tmp_name"], "img/vehicleimages/" . $_FILES["img3"]["name"]);
@@ -197,7 +198,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                     <div class="col-sm-4">
                                                         <select class="selectpicker" name="fueltype" required>
                                                             <option value="">--Select--</option>
-                                                            <option value="Petrol">Petrol</option>
+                                                            <option value="Octane">Octane</option>
                                                             <option value="Diesel">Diesel</option>
                                                             <option value="CNG">CNG</option>
                                                         </select>

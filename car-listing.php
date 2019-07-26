@@ -123,9 +123,11 @@ error_reporting(0);
 
                 <!--Side-Bar-->
                 <aside class="col-md-3 col-md-pull-9">
+
+                    <!--search car-->
                     <div class="sidebar_widget">
                         <div class="widget_heading">
-                            <h5><i class="fa fa-filter" aria-hidden="true"></i> Find Your Car </h5>
+                            <h5><i class="fa fa-filter" aria-hidden="true"></i>Find Your Car</h5>
                         </div>
                         <div class="sidebar_filter">
                             <form action="search-carresult.php" method="post">
@@ -133,7 +135,7 @@ error_reporting(0);
                                     <select class="form-control" name="brand">
                                         <option>Select Brand</option>
 
-                                        <?php $sql = "SELECT * from  tblbrands ";
+                                        <?php $sql = "SELECT * from  tblbrands";
                                         $query = $dbh->prepare($sql);
                                         $query->execute();
                                         $results = $query->fetchAll(PDO::FETCH_OBJ);
@@ -149,12 +151,11 @@ error_reporting(0);
                                 <div class="form-group select">
                                     <select class="form-control" name="fueltype">
                                         <option>Select Fuel Type</option>
-                                        <option value="Petrol">Petrol</option>
+                                        <option value="Octane">Octane</option>
                                         <option value="Diesel">Diesel</option>
                                         <option value="CNG">CNG</option>
                                     </select>
                                 </div>
-
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-block"><i class="fa fa-search"
                                                                                    aria-hidden="true"></i> Search Car
@@ -163,6 +164,7 @@ error_reporting(0);
                             </form>
                         </div>
                     </div>
+                    <!--search car-->
 
                     <div class="sidebar_widget">
                         <div class="widget_heading">
