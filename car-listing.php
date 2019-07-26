@@ -62,7 +62,7 @@ error_reporting(0);
     </section>
     <!-- /Page Header-->
 
-    <!--Listing-->
+    <!--Packages-->
     <section class="listing-page">
         <div class="container">
             <div class="row">
@@ -70,7 +70,7 @@ error_reporting(0);
                     <div class="result-sorting-wrapper">
                         <div class="sorting-count">
                             <?php
-                            //Query for Listing count
+                            //Query for Package count
                             $sql = "SELECT id from tblvehicles";
                             $query = $dbh->prepare($sql);
                             $query->bindParam(':vhid', $vhid, PDO::PARAM_STR);
@@ -170,7 +170,7 @@ error_reporting(0);
                         </div>
                         <div class="recent_addedcars">
                             <ul>
-                                <?php $sql = "SELECT tblvehicles.*,tblbrands.BrandName,tblbrands.id as bid  from tblvehicles join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand order by id desc limit 4";
+                                <?php $sql = "SELECT tblvehicles.*,tblbrands.BrandName,tblbrands.id AS bid FROM tblvehicles JOIN tblbrands ON tblbrands.id=tblvehicles.VehiclesBrand ORDER BY id DESC LIMIT 3";
                                 $query = $dbh->prepare($sql);
                                 $query->execute();
                                 $results = $query->fetchAll(PDO::FETCH_OBJ);
@@ -196,6 +196,7 @@ error_reporting(0);
                             </ul>
                         </div>
                     </div>
+
                 </aside>
                 <!--/Side-Bar-->
             </div>
