@@ -29,7 +29,7 @@ if (isset($_POST['login'])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Car Rental Portal | Admin Login</title>
+    <title>AutoSpire | Admin Login</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
@@ -51,7 +51,6 @@ if (isset($_POST['login'])) {
                         <div class="well row pt-2x pb-3x bk-light">
                             <div class="col-md-8 col-md-offset-2">
                                 <form method="post">
-
                                     <label for="" class="text-uppercase text-sm">Username</label>
                                     <input type="text" placeholder="Username" name="username" class="form-control mb">
 
@@ -60,7 +59,6 @@ if (isset($_POST['login'])) {
                                            class="form-control mb">
 
                                     <button class="btn btn-primary btn-block" name="login" type="submit">LOGIN</button>
-
                                 </form>
                             </div>
                         </div>
