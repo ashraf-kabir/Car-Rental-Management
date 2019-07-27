@@ -127,7 +127,6 @@ if (strlen($_SESSION['alogin']) == 0) {
 
                                                 <div class="form-group">
                                                     <div class="col-sm-8 col-sm-offset-4">
-
                                                         <button class="btn btn-primary" name="update" type="submit">
                                                             Update
                                                         </button>
