@@ -102,7 +102,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                     <label class="col-sm-4 control-label">Current Image2</label>
                                                     <?php
                                                     $id = intval($_GET['imgid']);
-                                                    $sql = "SELECT Vimage2 from tblvehicles where tblvehicles.id=:id";
+                                                    $sql = "SELECT Vimage2 FROM tblvehicles WHERE tblvehicles.id=:id";
                                                     $query = $dbh->prepare($sql);
                                                     $query->bindParam(':id', $id, PDO::PARAM_STR);
                                                     $query->execute();
@@ -137,14 +137,12 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                     </div>
                                                 </div>
 
-                                                <a href="/admin/dashboard.php">back to dashboard</a>
 
                                             </form>
 
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
 
                         </div>
