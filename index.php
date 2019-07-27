@@ -32,8 +32,8 @@ error_reporting(0);
     <link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 </head>
-<body>
 
+<body>
     <!--Header-->
     <?php include('includes/header.php'); ?>
     <!-- /Header -->
@@ -73,8 +73,8 @@ error_reporting(0);
                 <!-- Nav tabs -->
                 <div class="recent-tab">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">New
-                                                                                                                    Car</a>
+                        <li role="presentation" class="active"><a href="#" role="tab" data-toggle="tab">New
+                                                                                                        Car</a>
                         </li>
                     </ul>
                 </div>
