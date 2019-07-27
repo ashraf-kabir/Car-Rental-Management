@@ -31,7 +31,7 @@ include 'includes/config.php';
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
           href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.html">
+          href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
           href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
@@ -44,7 +44,7 @@ include 'includes/config.php';
     <?php include 'includes/header.php'; ?>
     <?php
     $pagetype = $_GET['type'];
-    $sql = "SELECT type,detail,PageName from tblpages where type=:pagetype";
+    $sql = "SELECT type,detail,PageName FROM tblpages WHERE type=:pagetype";
     $query = $dbh->prepare($sql);
     $query->bindParam(':pagetype', $pagetype, PDO::PARAM_STR);
     $query->execute();
@@ -86,7 +86,7 @@ include 'includes/config.php';
     <!-- /Footer-->
 
     <!--Back to top-->
-    <div id="back-top" class="back-top"><a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a></div>
+    <div id="back-top" class="back-top"><a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i> </a></div>
     <!--/Back to top-->
 
     <!--Login-Form -->

@@ -25,7 +25,7 @@ error_reporting(0);
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
           href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.html">
+          href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
           href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
@@ -62,11 +62,10 @@ error_reporting(0);
     <section class="section-padding gray-bg">
         <div class="container">
             <div class="section-header text-center">
-                <h2>Find the Best <span>CarForYou</span></h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                   alteration in some form, by injected humour, or randomised words which don't look even slightly
-                   believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
-                   anything embarrassing hidden in the middle of text.</p>
+                <h2>Find the Best Rent package for You</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores autem dolorem est minus
+                   mollitia nam nemo temporibus unde voluptas! Assumenda consequuntur debitis eveniet ipsam ipsum quas
+                   reiciendis tenetur veritatis.</p>
             </div>
             <div class="row">
 

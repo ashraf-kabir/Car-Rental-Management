@@ -25,7 +25,6 @@ if (isset($_POST['submit'])) {
         echo "<script>alert('Something went wrong. Please try again');</script>";
     }
 }
-
 ?>
 
 <!DOCTYPE HTML>
@@ -54,7 +53,7 @@ if (isset($_POST['submit'])) {
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
           href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.html">
+          href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
           href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
@@ -102,7 +101,6 @@ if (isset($_POST['submit'])) {
         <?php } ?>
     </section>
 <!--/Listing-Image-Slider-->
-
 
 <!--Listing-detail-->
     <section class="listing-detail">
@@ -334,7 +332,7 @@ if (isset($_POST['submit'])) {
                                     <input type="submit" class="btn" name="submit" value="Book Now">
                                 </div>
                             <?php } else { ?>
-                                <a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal"
+                                <a href="#" class="btn btn-xs uppercase" data-toggle="modal"
                                    data-dismiss="modal">Login For Book</a>
 
                             <?php } ?>
