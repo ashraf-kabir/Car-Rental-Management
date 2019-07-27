@@ -68,8 +68,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
             }
         </style>
-
-
     </head>
 
     <body>
@@ -91,14 +89,12 @@ if (strlen($_SESSION['alogin']) == 0) {
                                         <div class="panel-body">
                                             <form method="post" class="form-horizontal" enctype="multipart/form-data">
 
-
                                                 <?php if ($error) { ?>
                                                     <div class="errorWrap"><strong>ERROR</strong>
                                                     :<?php echo htmlentities($error); ?>
                                                     </div><?php } else if ($msg) { ?>
                                                     <div class="succWrap"><strong>SUCCESS</strong>
                                                     :<?php echo htmlentities($msg); ?> </div><?php } ?>
-
 
                                                 <div class="form-group">
                                                     <label class="col-sm-4 control-label">Current Image5</label>
@@ -131,10 +127,8 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                 </div>
                                                 <div class="hr-dashed"></div>
 
-
                                                 <div class="form-group">
                                                     <div class="col-sm-8 col-sm-offset-4">
-
                                                         <button class="btn btn-primary" name="update" type="submit">
                                                             Update
                                                         </button>
@@ -149,10 +143,8 @@ if (strlen($_SESSION['alogin']) == 0) {
 
                             </div>
 
-
                         </div>
                     </div>
-
 
                 </div>
             </div>

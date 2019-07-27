@@ -10,7 +10,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         $vimage = $_FILES["img3"]["name"];
         $id = intval($_GET['imgid']);
         move_uploaded_file($_FILES["img3"]["tmp_name"], "img/vehicleimages/" . $_FILES["img3"]["name"]);
-        $sql = "update tblvehicles set Vimage3=:vimage where id=:id";
+        $sql = "update tblvehicles SET Vimage3=:vimage WHERE id=:id";
         $query = $dbh->prepare($sql);
         $query->bindParam(':vimage', $vimage, PDO::PARAM_STR);
         $query->bindParam(':id', $id, PDO::PARAM_STR);
@@ -68,8 +68,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
             }
         </style>
-
-
     </head>
 
     <body>
@@ -91,7 +89,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                                         <div class="panel-body">
                                             <form method="post" class="form-horizontal" enctype="multipart/form-data">
 
-
                                                 <?php if ($error) { ?>
                                                     <div class="errorWrap"><strong>ERROR</strong>
                                                     :<?php echo htmlentities($error); ?>
@@ -99,12 +96,11 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                     <div class="succWrap"><strong>SUCCESS</strong>
                                                     :<?php echo htmlentities($msg); ?> </div><?php } ?>
 
-
                                                 <div class="form-group">
                                                     <label class="col-sm-4 control-label">Current Image3</label>
                                                     <?php
                                                     $id = intval($_GET['imgid']);
-                                                    $sql = "SELECT Vimage3 from tblvehicles where tblvehicles.id=:id";
+                                                    $sql = "SELECT Vimage3 FROM tblvehicles WHERE tblvehicles.id=:id";
                                                     $query = $dbh->prepare($sql);
                                                     $query->bindParam(':id', $id, PDO::PARAM_STR);
                                                     $query->execute();
@@ -131,10 +127,8 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                 </div>
                                                 <div class="hr-dashed"></div>
 
-
                                                 <div class="form-group">
                                                     <div class="col-sm-8 col-sm-offset-4">
-
                                                         <button class="btn btn-primary" name="update" type="submit">
                                                             Update
                                                         </button>
@@ -149,10 +143,8 @@ if (strlen($_SESSION['alogin']) == 0) {
 
                             </div>
 
-
                         </div>
                     </div>
-
 
                 </div>
             </div>

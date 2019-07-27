@@ -49,7 +49,6 @@ if (strlen($_SESSION['alogin']) == 0) {
         <link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
         <!-- Admin Stye -->
         <link rel="stylesheet" href="css/style.css">
-
         <style>
             .errorWrap {
                 padding: 10px;
@@ -69,7 +68,6 @@ if (strlen($_SESSION['alogin']) == 0) {
                 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
             }
         </style>
-
     </head>
 
     <body>

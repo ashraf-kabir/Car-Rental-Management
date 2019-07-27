@@ -9,7 +9,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         $vimage1 = $_FILES["img1"]["name"];
         $id = intval($_GET['imgid']);
         move_uploaded_file($_FILES["img1"]["tmp_name"], "img/vehicleimages/" . $_FILES["img1"]["name"]);
-        $sql = "update tblvehicles set Vimage1=:vimage1 where id=:id";
+        $sql = "UPDATE tblvehicles SET Vimage1=:vimage1 WHERE id=:id";
         $query = $dbh->prepare($sql);
         $query->bindParam(':vimage1', $vimage1, PDO::PARAM_STR);
         $query->bindParam(':id', $id, PDO::PARAM_STR);
@@ -99,7 +99,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                     <label class="col-sm-4 control-label">Current Image1</label>
                                                     <?php
                                                     $id = intval($_GET['imgid']);
-                                                    $sql = "SELECT Vimage1 from tblvehicles where tblvehicles.id=:id";
+                                                    $sql = "SELECT Vimage1 FROM tblvehicles WHERE tblvehicles.id=:id";
                                                     $query = $dbh->prepare($sql);
                                                     $query->bindParam(':id', $id, PDO::PARAM_STR);
                                                     $query->execute();
