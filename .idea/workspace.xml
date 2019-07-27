@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8acd89b-e7cd-479a-8d8d-2cf0ef1384b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-listing.php" beforeDir="false" afterPath="$PROJECT_DIR$/car-listing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/my-booking.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-carresult.php" beforeDir="false" afterPath="$PROJECT_DIR$/search-carresult.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/update-password.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehical-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehical-details.php" afterDir="false" />
-    </list>
+    <list default="true" id="c8acd89b-e7cd-479a-8d8d-2cf0ef1384b1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564235553103</updated>
-      <workItem from="1564235560216" duration="2353000" />
+      <workItem from="1564235560216" duration="2523000" />
     </task>
     <servers />
   </component>
