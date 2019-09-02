@@ -153,6 +153,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                         <input type="text" name="vehicletitle" class="form-control"
                                                                required>
                                                     </div>
+
                                                     <label class="col-sm-2 control-label">Select Brand<span
                                                                 style="color:red">*</span></label>
                                                     <div class="col-sm-4">
@@ -174,6 +175,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 
                                                         </select>
                                                     </div>
+                                                    
                                                 </div>
 
                                                 <div class="hr-dashed"></div>

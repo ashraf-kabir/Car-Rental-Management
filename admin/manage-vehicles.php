@@ -11,7 +11,7 @@ if (strlen($_SESSION['alogin']) == 0) {
         $query = $dbh->prepare($sql);
         $query->bindParam(':delid', $delid, PDO::PARAM_STR);
         $query->execute();
-        $msg = "Vehicle  record deleted successfully";
+        $msg = "Vehicle record deleted successfully";
     }
     ?>
 
@@ -131,7 +131,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                     <td><a href="edit-vehicle.php?id=<?php echo $result->id; ?>"><i
                                                                     class="fa fa-edit"></i></a>&nbsp;&nbsp;
                                                         <a href="manage-vehicles.php?del=<?php echo $result->id; ?>"
-                                                           onclick="return confirm('Do you want to delete');"><i
+                                                           onclick="return confirm('Do you want to delete?');"><i
                                                                     class="fa fa-close"></i></a></td>
                                                 </tr>
                                                 <?php $cnt = $cnt + 1;
