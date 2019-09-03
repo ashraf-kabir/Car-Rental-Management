@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
     $query->execute();
     $lastInsertId = $dbh->lastInsertId();
     if ($lastInsertId) {
-        echo "<script>alert('Booking successfull.');</script>";
+        echo "<script>alert('Booking successful');</script>";
     } else {
         echo "<script>alert('Something went wrong. Please try again');</script>";
     }
