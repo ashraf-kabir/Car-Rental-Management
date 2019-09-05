@@ -23,7 +23,7 @@ if (strlen($_SESSION['alogin']) == 0) {
             $chngpwd1->bindParam(':username', $username, PDO::PARAM_STR);
             $chngpwd1->bindParam(':newpassword', $newpassword, PDO::PARAM_STR);
             $chngpwd1->execute();
-            $msg = "Your Password succesfully changed";
+            $msg = "Your Password successfully changed";
         } else {
             $error = "Your current password is not valid.";
         }
