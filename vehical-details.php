@@ -332,7 +332,7 @@ if (isset($_POST['submit'])) {
                                     <input type="submit" class="btn" name="submit" value="Book Now">
                                 </div>
                             <?php } else { ?>
-                                <a href="#" class="btn btn-xs uppercase" data-toggle="modal"
+                                <a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal"
                                    data-dismiss="modal">Login For Book</a>
 
                             <?php } ?>
